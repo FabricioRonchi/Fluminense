@@ -26,3 +26,13 @@ body{
 	padding-right: 15px;
 }
 
+span{
+	font-size: 18px;
+	color: #006940 !important;
+	font-family: inherit;
+	font-weight: 500;	
+}
+
+h2{
+	color: #790124 !important;
+}

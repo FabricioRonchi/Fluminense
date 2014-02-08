@@ -35,15 +35,12 @@
 	//available langs: english (en), turkish (tr), deutsch (de), spanish (es)
 	//format options: full, day, seconds
 	
-	var _defaults = { 'sinceDate' : '17/10/2007-19:37:25', 'expiryDate' : 'now', 'lang': 'en', 'format': 'seconds' , 'div_id' : '#jq_count_up', 'class_prefix' : '', 'seperator': ',', 'write_zero':'false'};
+	var _defaults = { 'sinceDate' : '17/10/2007-19:37:25', 'expiryDate' : 'now', 'lang': 'en', 'format': 'seconds' , 'div_id' : '#jq_count_up', 'class_prefix' : '', 'seperator': ' ', 'write_zero':'false'};
 
 	var _timeStructure = { 'yeard': '', 'month': '', 'day': '', 'hour': '', 'minute': '', 'seconds': '' };
 	var _monthDayStructure = { 1: 31, 2:28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31 };	
 	var _lang = { 
-		'en' : { 'years': 'yearss', 'month': 'months', 'day': 'days', 'hour': 'hours', 'minute': 'minutes', 'seconds': 'seconds'  },
-		'tr' : { 'year': 'yıl', 'month': 'ay', 'day': 'gün', 'hour': 'saat', 'minute': 'dakika', 'seconds': 'saniye' },
-		'es' : { 'year': 'año' ,'month': 'mes', 'day': 'día' ,'hour': 'horas' ,'minute': 'minuto','seconds': 'segundo'	},
-		'de' : { 'year': 'jahr' ,'month': 'monat' ,'day': 'tag' ,'hour': 'stunde' ,'minute': 'minute','seconds': 'sekunden' }
+		'en' : { 'year': 'Anos', 'month': 'Meses', 'day': 'Dias', 'hour': 'Horas', 'minute': 'Minutos', 'seconds': 'Segundos'  }		
     };
 		    
 	var methods = {
