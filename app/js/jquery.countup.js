@@ -185,7 +185,7 @@
 			var day    = '<span id='+newOptions["class_prefix"]+'_day">'+time.day+' '+_lang[newOptions['lang']].day+newOptions['seperator']+' </span>';
 			var hour   = '<span id='+newOptions["class_prefix"]+'_hour">'+time.hour+' '+_lang[newOptions['lang']].hour+newOptions['seperator']+' </span>';
 			var minute = '<span id='+newOptions["class_prefix"]+'_minute">'+time.minute+' '+_lang[newOptions['lang']].minute+newOptions['seperator']+' </span>';
-			var seconds = '<span id='+newOptions["class_prefix"]+'_seconds">'+time.seconds+' '+_lang[newOptions['lang']].seconds+' </span>';
+			var seconds = '<span style="display: none" id='+newOptions["class_prefix"]+'_seconds">'+time.seconds+' '+_lang[newOptions['lang']].seconds+' </span>';
 			
 			if(newOptions['write_zero'] == 'true') {
 				$(newOptions['div_id']).html(year+month+day+hour+minute+seconds);
