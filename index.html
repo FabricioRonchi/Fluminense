@@ -18,16 +18,71 @@
         </div>  
         <div class="my-container">
             <div class="row">
-                <div class="col-lg-12 text-center">                
+                <div class="col-sm-12 text-center">                
                     <h2>Fundação</h2>
                     <p><span id="fundacao"></span></p>                                
+                    <hr />
+                </div>                
+                <div class="col-sm-12 text-center">                
+                    <h2>Vitória</h2>
+                    <p><span id="vitoria"></span></p>                                
+                    <hr />
                 </div>
+                <div class="col-sm-12 text-center">                
+                    <h2>Empate</h2>
+                    <p><span id="empate"></span></p>                                
+                    <hr />
+                </div>
+                <div class="col-sm-12 text-center">                
+                    <h2>Derrota</h2>
+                    <p><span id="derrota"></span></p>                                
+                    <hr />
+                </div>                
+                <div class="col-sm-12 text-center">                
+                    <h2>Gol Feito</h2>
+                    <p><span id="golF"></span></p>                                
+                    <hr />
+                </div>
+                <div class="col-sm-12 text-center">                
+                    <h2>Gol Sofrido</h2>
+                    <p><span id="golS"></span></p>                                
+                    <hr />
+                </div>
+                <div class="col-sm-12 text-center">                
+                    <h2>Título Brasileiro</h2>
+                    <p><span id="ultimoTituloB"></span></p>                                
+                    <hr />
+                </div>                
+                <div class="col-sm-12 text-center">                
+                    <h2>Título Carioca</h2>
+                    <p><span id="ultimoTituloC"></span></p>                                
+                    <hr />
+                </div>
+                <div class="col-sm-12 text-center">                
+                    <h2>Acesso</h2>
+                    <p><span id="acesso"></span></p>                                
+                    <hr />
+                </div>                
+                <div class="col-sm-12 text-center">                
+                    <h2>Rebaixamento</h2>
+                    <p><span id="rebaixamento"></span></p>                                
+                    <hr />
+                </div>                                
             </div>
         </div>
         <script src="app/js/jquery.min.js"></script>
         <script src="app/js/jquery.countup.js"></script>
         <script type="text/javascript">
-            $('#fundacao').countUp({'format':'full', 'sinceDate': '21/07/1902-00::00'});
+            $('#fundacao').countUp({'format':'full', 'sinceDate': '21/07/1902-00:00:00'});
+            $('#vitoria').countUp({'format':'full', 'sinceDate': '15/02/2014-21:15:00'});
+            $('#empate').countUp({'format':'full', 'sinceDate': '23/01/2014-21:45:00'});
+            $('#derrota').countUp({'format':'full', 'sinceDate': '18/01/2014-18:45:00'});
+            $('#ultimoTituloB').countUp({'format':'full', 'sinceDate': '02/12/2012-18:00:00'});
+            $('#ultimoTituloC').countUp({'format':'full', 'sinceDate': '13/05/2012-18:45:00'});
+            $('#golS').countUp({'format':'full', 'sinceDate': '15/02/2014-19:55:00'});
+            $('#golF').countUp({'format':'full', 'sinceDate': '15/02/2014-21:16:00'});
+            $('#rebaixamento').countUp({'format':'full', 'sinceDate': '06/10/1998-21:00:00'});
+            $('#acesso').countUp({'format':'full', 'sinceDate': '23/12/1999-22:45:00'});
         </script>
     </body>     
 </html>
